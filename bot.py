@@ -13,9 +13,9 @@ from pytgcalls.types.input_stream import AudioPiped
 from pytgcalls.exceptions import NoActiveGroupCall
 
 # 🔑 CONFIG
-API_ID = 12345678
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+API_ID = 38687584
+API_HASH = "0d494cc2bb431a8bec250a3ebf224a59"
+BOT_TOKEN = "8705816076:AAElcimTeKLP1RN1u52whfS9evNUzX8jF1U"
 
 app = Client("single_pro_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 call_py = PyTgCalls(app)
